@@ -87,18 +87,19 @@ function Info() {
                                                 <CardText>
                                                     <strong>Given movie 1</strong><br/>
                                                     Como secuela continuando la historia donde los episodios de anime se cubrieron en el manga, se lanzó una película de anime un año después, el 22 de agosto de 2020. La historia se refiere al desarrollo de la relación de Akihiko con Haruki en los volúmenes 4 y 5 del manga. Fue producido por Blue Lynx y tiene una duración de 59 minutos.
-                                                </CardText>
-                                                <Button color="primary" onClick={() => handleImageClick('movie1')}>Ver Portada Película 1</Button>
+                                                    <Button color="primary" onClick={() => handleImageClick('movie1')}>Ver Portada Movie 1</Button>
+                                                </CardText>                                                
                                                 <CardText>
                                                     <strong>Given movie 2: Hiiragi Mix</strong><br/>
                                                     El 22 de marzo de 2023, Natsuki Kizu anunció en Twitter que se estaba trabajando en una nueva película de anime con un teaser promocional. La segunda película se estrenó el 27 de enero de 2024. Tiene una duración de 1 hora y 10 minutos.
+                                                    <Button color="primary" onClick={() => handleImageClick('movie2')}>Ver Portada Movie 2</Button>
                                                 </CardText>
-                                                <Button color="primary" onClick={() => handleImageClick('movie2')}>Ver Portada Película 2</Button>
                                                 <CardText>
                                                     <strong>Given movie 3: Umi e</strong><br/>
                                                     La tercera película está programada para emitirse en 2024.
+                                                    <Button color="primary" onClick={() => handleImageClick('movie3')}>Ver Portada Movie 3</Button>
                                                 </CardText>
-                                                <Button color="primary" onClick={() => handleImageClick('movie3')}>Ver Portada Película 3</Button>
+                                                
                                             </AccordionBody>
                                         </AccordionItem>
                                     </Accordion>

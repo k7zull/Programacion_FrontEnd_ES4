@@ -5,7 +5,7 @@ function Musica() {
 
     return (
         <>
-           <h1>vamo porra</h1>
+           
         </>
     )
 }
