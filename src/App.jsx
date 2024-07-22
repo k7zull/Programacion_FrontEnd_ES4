@@ -5,51 +5,62 @@ import {Container,Row} from "reactstrap"
 
 /* importaciones */
 import Inicio from "./Inicio"
-import Destacados from "./Destacados"
+import Info from './Info'
 import Personajes from './Personajes'
+import Musica from './Musica'
 import Encuesta from './Encuesta'
 import BarraNavegacion from "./fragments/BarraNavegacion"
 import './App.css'
 
-/* component: view */
+
+/* view */
 function App() {
   const [menu, setMenu] = useState('inicio') 
 
-  const handleChangeMenuDestacado = () => {
-    setMenu('destacados')
+  const handleChangeMenuInfo = () => {
+    setMenu('info')
   }
   const handleChangeMenuPersonaje = () => {
     setMenu('personajes')
   }
+  const handleChangeMenuMusica = () => {
+    setMenu('musica')
+  }
   const handleChangeMenuEncuesta = () => {
     setMenu('encuesta')
   }
+
   return (
     <>
         <Container>
           <Row>
             <BarraNavegacion
                 setMenu={setMenu}
-                handleChangeMenuDestacado={handleChangeMenuDestacado}
+                handleChangeMenuInfo={handleChangeMenuInfo}
                 handleChangeMenuPersonaje={handleChangeMenuPersonaje}
+                handleChangeMenuMusica={handleChangeMenuMusica}
                 handleChangeMenuEncuesta={handleChangeMenuEncuesta}
             />
           </Row>
           <Row className="mt-2">
-            {/* condition rendering */}
             {menu === 'inicio' &&
               <>
                 <Inicio />
               </>
             }
-            {menu === 'destacados' &&
+            {menu === 'info' &&
               <>
-                <Destacados />
+                <Info />
               </>
             }
             {menu === 'personajes' &&
               <>
                 <Personajes />
+              </>
+            }
+            {menu === 'musica' &&
+              <>
+                <Musica />
               </>
             }
             {menu === 'encuesta' &&

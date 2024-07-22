@@ -1,16 +1,19 @@
 @font-face {
-  font-family: 'Momt_';
-  src: url('/assets/webFonts/Momt_.ttf') format('truetype');
+  font-family: 'Mont_';
+  src: url('./assets/webFonts/Mont_.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'JMH Typewriter';
-  src: url('/assets/webFonts/JMH Typewriter.ttf') format('truetype');
+  font-family: 'Typewriter';
+  src: url('./assets/webFonts/Typewriter.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Recursive';
-  src: url('/assets/webfonts/Recursive.ttf') format('truetype');
+  src: url('./assets/webFonts/Recursive.ttf') format('truetype');
 }
 
 body {
-  background-color: red;
+  background-color: #D8D5D2;
 }
+
+
+

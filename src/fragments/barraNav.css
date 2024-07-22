@@ -1,0 +1,31 @@
+.barraNavegacion .nav-link {
+  font-weight: bold;
+  font-family: 'Typewriter';
+  color: #2C323C; 
+  position: relative; 
+}
+
+.barraNavegacion .nav-link:hover {
+  color: #4E7683; 
+}
+
+.barraNavegacion .nav-link.active {
+  color: whitesmoke; 
+  background-color: #4c6c95b8;
+}
+
+.barraNavegacion .nav-link.active::after {
+  content: ''; 
+  display: block;
+  width: 100%;
+  height: 2.5px; 
+  background-color: #4e768347; 
+  position: absolute;
+  bottom: -5px; 
+  left: 0;
+}
+
+img {
+  height: auto;
+  width: 105px; 
+}
