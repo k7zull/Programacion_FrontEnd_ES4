@@ -25,13 +25,13 @@
     color: #333;
     border-radius: 10px; 
     overflow: hidden;
-    border: 1px solid #d834348b;
+    border: 1px solid #40606b ;
 }
 
 .table th, .table td {
     padding: 10px;
     border-top: none;
-    background-color: #d834345a;
+    background-color: #4e7683c7;
 }
 
 .info-series {
@@ -39,9 +39,9 @@
 }
 
 .accordion-button {
-    background-color: #bf654599;
+    background-color: #4e7683c7;
     color: #333;
-    border: 1px solid #bf654599;
+    border: 1px solid #40606b;
     border-radius: 5px;
     margin-bottom: 5px;
     font-size: 16px; 
@@ -52,7 +52,7 @@
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #bf6545e8;
+    background-color: #4e7683c7;
     color: white;
     padding: 10px;
 }
@@ -75,19 +75,19 @@
 }
 
 .btn-primary {
-    background-color: #bf6545e8;
-    border-color: #bf6545e8;
+    background-color: #71adc1d8;
+    border-color: #598897ea;
     font-size: 14px; 
 }
 
 .btn-primary:hover {
-    background-color: #904d3599;
-    border-color: #904d3599;
+    background-color: #40626e;
+    border-color: #2d464e;
 }
 
 .btn-primary:focus, .btn-primary:active {
-    background-color: #753f2b !important;
-    border-color: #753f2b !important;
+    background-color: #41626eef !important;
+    border-color: #2f464eef !important;
     box-shadow: none !important;
 }
 

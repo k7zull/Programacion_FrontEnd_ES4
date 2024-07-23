@@ -4,15 +4,16 @@
   }
   
   .personaje-card {
-    border: 1px solid #dee2e6; /* Borde de la tarjeta */
-    border-radius: 8px; /* Esquinas redondeadas */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    transition: transform 0.2s, box-shadow 0.2s; /* Transiciones suaves */
+    border: 1px solid #dee2e6; 
+    background-color: #ab9b9b7d;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s, box-shadow 0.2s; 
   }
   
   .personaje-card:hover {
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   }
   
   .personaje-img-container {
@@ -20,17 +21,17 @@
   }
   
   .personaje-img {
-    border-top-left-radius: 8px; /* Redondea la esquina superior izquierda de la imagen */
-    border-top-right-radius: 8px; /* Redondea la esquina superior derecha de la imagen */
-    height: 200px; /* Altura fija para las imágenes */
-    object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsionar */
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    height: 200px; 
+    object-fit: cover; 
   }
   
   .personaje-img-hover {
-    border-top-left-radius: 8px; /* Redondea la esquina superior izquierda de la imagen */
-    border-top-right-radius: 8px; /* Redondea la esquina superior derecha de la imagen */
-    height: 200px; /* Altura fija para las imágenes */
-    object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsionar */
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px;
+    height: 200px; 
+    object-fit: cover; 
     position: absolute;
     top: 0;
     left: 0;
@@ -43,23 +44,23 @@
   }
   
   .personaje-card .card-body {
-    padding: 20px; /* Espaciado interno */
+    padding: 20px; 
   }
   
   .personaje-title {
-    font-size: 1.25rem; /* Tamaño de fuente del título */
-    font-weight: bold; /* Negrita */
-    margin-bottom: 10px; /* Espacio debajo del título */
+    font-size: 1.25rem; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
   }
   
   .personaje-description {
-    font-size: 13px; /* Tamaño de fuente del texto */
-    color: #495057; /* Color del texto */
+    font-size: 13px; 
+    color: #495057; 
   }
   
   @media (max-width: 576px) {
     .personaje-card {
-      margin: 10px 0; /* Márgenes en pantallas pequeñas */
+      margin: 10px 0; 
     }
   }
   
