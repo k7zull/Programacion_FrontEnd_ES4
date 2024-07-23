@@ -44,7 +44,7 @@
     border: 1px solid #bf654599;
     border-radius: 5px;
     margin-bottom: 5px;
-    
+    font-size: 16px; 
 }
 
 .accordion-button:focus {
@@ -77,7 +77,7 @@
 .btn-primary {
     background-color: #bf6545e8;
     border-color: #bf6545e8;
-    font-size: 14px;
+    font-size: 14px; 
 }
 
 .btn-primary:hover {

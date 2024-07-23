@@ -1,43 +1,65 @@
-.container {
-    margin-top: 2rem;
-}
-
-h2 {
-    margin-bottom: 2rem;
-    text-align: center;
-    font-family: 'Typewriter', monospace;
-}
-
-.card {
-    background-color: #f8f9fa; /* Fondo claro */
-    border: 1px solid #ddd; /* Borde gris claro */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-    transition: transform 0.2s; /* Animación en hover */
-}
-
-.card:hover {
-    transform: scale(1.05); /* Escalar en hover */
-}
-
-.card-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: 'Typewriter', monospace;
-}
-
-.card-text {
-    font-size: 1rem;
-    line-height: 1.6;
-    font-family: 'Arial', sans-serif;
-}
-
-@media (max-width: 768px) {
-    .card-title {
-        font-size: 1.25rem;
+.personajes-container {
+    margin-top: 20px;
+    font-family: 'Typewriter';
+  }
+  
+  .personaje-card {
+    border: 1px solid #dee2e6; /* Borde de la tarjeta */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.2s, box-shadow 0.2s; /* Transiciones suaves */
+  }
+  
+  .personaje-card:hover {
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Aumenta la sombra */
+  }
+  
+  .personaje-img-container {
+    position: relative;
+  }
+  
+  .personaje-img {
+    border-top-left-radius: 8px; /* Redondea la esquina superior izquierda de la imagen */
+    border-top-right-radius: 8px; /* Redondea la esquina superior derecha de la imagen */
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsionar */
+  }
+  
+  .personaje-img-hover {
+    border-top-left-radius: 8px; /* Redondea la esquina superior izquierda de la imagen */
+    border-top-right-radius: 8px; /* Redondea la esquina superior derecha de la imagen */
+    height: 200px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsionar */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .personaje-img-container:hover .personaje-img-hover {
+    opacity: 1;
+  }
+  
+  .personaje-card .card-body {
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  .personaje-title {
+    font-size: 1.25rem; /* Tamaño de fuente del título */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 10px; /* Espacio debajo del título */
+  }
+  
+  .personaje-description {
+    font-size: 13px; /* Tamaño de fuente del texto */
+    color: #495057; /* Color del texto */
+  }
+  
+  @media (max-width: 576px) {
+    .personaje-card {
+      margin: 10px 0; /* Márgenes en pantallas pequeñas */
     }
-
-    .card-text {
-        font-size: 0.875rem;
-    }
-}
+  }
+  

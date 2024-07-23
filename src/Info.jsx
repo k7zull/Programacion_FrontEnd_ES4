@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import { Container, Row, Col, Card, CardBody, CardTitle, CardText, Table, Accordion, AccordionItem, AccordionHeader, AccordionBody, Button } from 'reactstrap';
-import './info.css'; // Asegúrate de crear y usar este archivo para estilos personalizados
+import './info.css'
 
 function Info() {
     const [open, setOpen] = useState('');
@@ -126,4 +126,4 @@ function Info() {
     )
 }
 
-export default Info;
+export default Info
