@@ -5,45 +5,45 @@
 
 .musica-card {
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    background-color: #ab9b9b7d;
 }
 
 .musica-title {
     font-size: 2rem;
     font-weight: bold;
-    color: #333;
 }
 
 .musica-subtitle {
-    font-size: 23px;
+    font-size: 1.5rem;
     font-weight: bold;
-    color: #555;
 }
 
 .musica-text {
     font-size: 1rem;
-    color: #666;
-}
-
-.musica-inicio {
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 3px;
-}
-.musica-text {
-    text-align: center;
 }
 
 .musica-list {
     padding-left: 0;
 }
 
+.imagenMusica {
+    margin-top: 0px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.554);
+}
 .musica-list-item {
     padding: 10px 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #202f3570;
     margin-bottom: 5px;
     border-radius: 4px;
-    background-color: #f9f9f9;
+    background-color: #40606b70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.musica-button {
+    margin-left: 10px;
 }

@@ -1,0 +1,86 @@
+.encuesta-container {
+    padding: 20px;
+    font-family: 'Typewriter';
+}
+
+.encuesta-form-group-custom {
+    margin-bottom: 15px;
+}
+
+.encuesta-label-custom {
+    font-weight: bold;
+}
+
+.encuesta-input-custom {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.encuestaEditar-button-custom {
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #D99A4E;
+    border: #a9793d;
+    
+}
+.encuestaEliminar-button-custom {
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #902f2f;
+    border: #682222;
+}
+
+.encuesta-list-group-custom {
+    margin-top: 20px;
+}
+
+.encuesta-list-item-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.encuesta-list-item-custom button {
+    margin-left: 10px;
+}
+
+.message-custom {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.message-custom.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.message-custom.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.card-custom {
+    margin-bottom: 20px;
+    background-color: #ab9b9b7d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body-custom {
+    padding: 20px;
+}
+
+.card-title-custom {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
